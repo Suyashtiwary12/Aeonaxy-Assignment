@@ -44,10 +44,10 @@ export const Sidebar = () => {
         </div>
         <ul className='mb-4'>
           <li className="mb-2">
-            <a href='#' className='block py-2 px-4 text-sm font-[300]'><FontAwesomeIcon icon={faClock} className='mr-2' /> Catch up</a>
+            <a className='block py-2 px-4 text-sm font-[300]'><FontAwesomeIcon icon={faClock} className='mr-2' /> Catch up</a>
           </li>
           <li className="mb-6">
-            <a href='#' className='block py-2 px-4 text-sm font-[300]'><FontAwesomeIcon icon={faMessage} className='mr-2' /> Discussions</a>
+            <a className='block py-2 px-4 text-sm font-[300]'><FontAwesomeIcon icon={faMessage} className='mr-2' /> Discussions</a>
           </li>
           <li>
             <a>

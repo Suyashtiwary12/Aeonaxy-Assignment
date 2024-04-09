@@ -5,33 +5,34 @@ import { faAngleLeft, faAngleRight, faBars, faLock, faMessage, faStar, faEllipsi
 export const Navbar = () => {
     return (
         <div className="w-full flex justify-between">
-            <div className="flex">
-                <a>
+            <ul className="flex">
+
+                <li>
                     <FontAwesomeIcon icon={faBars} className="mx-8" />
-                </a>
-                <a>
+                </li>
+                <li>
                     <FontAwesomeIcon icon={faAngleLeft} className="mx-2" />
-                </a>
-                <a>
+                </li>
+                <li>
                     <FontAwesomeIcon icon={faAngleRight} className="mx-2" />
-                </a>
-                <a  className="sm:flex sm:items-center sm:ml-4 hidden sm:visible"> 
+                </li>
+                <li  className="sm:flex sm:items-center sm:ml-4 hidden sm:visible"> 
                     <FontAwesomeIcon icon={faLock} className="mr-2" /> 
                     <p className="font-[200]">My channel/👋 Getting started</p> 
-                </a>
-            </div>
-            <div className="flex justify-around">
-                <a  className="mx-4 font-[200]">Share</a>
-                <a  className="mx-4">
+                </li>
+            </ul>
+            <ul className="flex justify-around">
+                <li  className="mx-4 font-[200]">Share</li>
+                <li  className="mx-4">
                 <FontAwesomeIcon icon={faMessage} />
-                </a>
-                <a  className="mx-4">
+                </li>
+                <li  className="mx-4">
                 <FontAwesomeIcon icon={faStar} style={{color: "#FFD43B"}} />
-                </a>
-                <a  className="mx-4">
+                </li>
+                <li  className="mx-4">
                 <FontAwesomeIcon icon={faEllipsisVertical} />
-                </a>
-            </div>
+                </li>
+            </ul>
         </div>
     )
 }
