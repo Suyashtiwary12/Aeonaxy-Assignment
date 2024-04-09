@@ -6,13 +6,13 @@ export const Navbar = () => {
     return (
         <div className="w-full flex justify-between">
             <div className="flex">
-                <a >
+                <a>
                     <FontAwesomeIcon icon={faBars} className="mx-8" />
                 </a>
-                <a >
+                <a>
                     <FontAwesomeIcon icon={faAngleLeft} className="mx-2" />
                 </a>
-                <a >
+                <a>
                     <FontAwesomeIcon icon={faAngleRight} className="mx-2" />
                 </a>
                 <a  className="sm:flex sm:items-center sm:ml-4 hidden sm:visible"> 

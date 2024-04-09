@@ -16,7 +16,7 @@ export const Sidebar = () => {
         <div className='flex justify-between mb-4'>
 
           <p className='font-[500] text-sm'>refro team</p>
-          <a >
+          <a>
             <FontAwesomeIcon icon={faBell} />
           </a>
         </div>
@@ -50,7 +50,7 @@ export const Sidebar = () => {
             <a href='#' className='block py-2 px-4 text-sm font-[300]'><FontAwesomeIcon icon={faMessage} className='mr-2' /> Discussions</a>
           </li>
           <li>
-            <a >
+            <a>
               <h3 className='text-sm font-[500] mb-4 ml-4'>
                 Favorites
               </h3>
@@ -60,7 +60,7 @@ export const Sidebar = () => {
             </a>
           </li>
           <li>
-            <a >
+            <a>
               <h3 className='text-sm font-[500] mb-4 ml-4'>
                 My channels
               </h3>
