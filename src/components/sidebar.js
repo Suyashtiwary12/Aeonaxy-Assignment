@@ -16,7 +16,7 @@ export const Sidebar = () => {
         <div className='flex justify-between mb-4'>
 
           <p className='font-[500] text-sm'>refro team</p>
-          <a href="#">
+          <a >
             <FontAwesomeIcon icon={faBell} />
           </a>
         </div>
@@ -50,7 +50,7 @@ export const Sidebar = () => {
             <a href='#' className='block py-2 px-4 text-sm font-[300]'><FontAwesomeIcon icon={faMessage} className='mr-2' /> Discussions</a>
           </li>
           <li>
-            <a href="#">
+            <a >
               <h3 className='text-sm font-[500] mb-4 ml-4'>
                 Favorites
               </h3>
@@ -60,7 +60,7 @@ export const Sidebar = () => {
             </a>
           </li>
           <li>
-            <a href="#">
+            <a >
               <h3 className='text-sm font-[500] mb-4 ml-4'>
                 My channels
               </h3>
@@ -167,16 +167,16 @@ export const Sidebar = () => {
       <div className='mt-32'>
         <ul>
           <li className="mb-2">
-            <a href="#" className="block py-2 px-6 text-sm font-[300]"><FontAwesomeIcon icon={faUserPlus} className='mr-2' /> Add People</a>
+            <a  className="block py-2 px-6 text-sm font-[300]"><FontAwesomeIcon icon={faUserPlus} className='mr-2' /> Add People</a>
           </li>
           <li className="mb-2">
-            <a href="#" className="block py-2 px-6 text-sm font-[300]"><FontAwesomeIcon icon={faCircleHalfStroke} rotation={-50} className='mr-2' /> Templates</a>
+            <a  className="block py-2 px-6 text-sm font-[300]"><FontAwesomeIcon icon={faCircleHalfStroke} rotation={-50} className='mr-2' /> Templates</a>
           </li>
           <li className="mb-2">
-            <a href="#" className="block py-2 px-6 text-sm font-[300]"><FontAwesomeIcon icon={faDownload} className='mr-2' /> Shared with me</a>
+            <a  className="block py-2 px-6 text-sm font-[300]"><FontAwesomeIcon icon={faDownload} className='mr-2' /> Shared with me</a>
           </li>
           <li className="mb-2">
-            <a href="#" className="block py-2 px-6 text-sm font-[300]"><FontAwesomeIcon icon={faBoxArchive} className='mr-2' /> Archive</a>
+            <a  className="block py-2 px-6 text-sm font-[300]"><FontAwesomeIcon icon={faBoxArchive} className='mr-2' /> Archive</a>
           </li>
         </ul>
       </div>
