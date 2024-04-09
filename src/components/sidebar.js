@@ -16,9 +16,9 @@ export const Sidebar = () => {
         <div className='flex justify-between mb-4'>
 
           <p className='font-[500] text-sm'>refro team</p>
-          <a>
+          <li>
             <FontAwesomeIcon icon={faBell} />
-          </a>
+          </li>
         </div>
 
 
@@ -44,23 +44,23 @@ export const Sidebar = () => {
         </div>
         <ul className='mb-4'>
           <li className="mb-2">
-            <a className='block py-2 px-4 text-sm font-[300]'><FontAwesomeIcon icon={faClock} className='mr-2' /> Catch up</a>
+            <li className='block py-2 px-4 text-sm font-[300]'><FontAwesomeIcon icon={faClock} className='mr-2' /> Catch up</li>
           </li>
           <li className="mb-6">
-            <a className='block py-2 px-4 text-sm font-[300]'><FontAwesomeIcon icon={faMessage} className='mr-2' /> Discussions</a>
+            <li className='block py-2 px-4 text-sm font-[300]'><FontAwesomeIcon icon={faMessage} className='mr-2' /> Discussions</li>
           </li>
           <li>
-            <a>
+            <li>
               <h3 className='text-sm font-[500] mb-4 ml-4'>
                 Favorites
               </h3>
               <p className='font-[300] text-sm mb-8 ml-4'>
                 👋 Getting started
               </p>
-            </a>
+            </li>
           </li>
           <li>
-            <a>
+            <li>
               <h3 className='text-sm font-[500] mb-4 ml-4'>
                 My channels
               </h3>
@@ -100,7 +100,7 @@ export const Sidebar = () => {
                   )}
                 </div>
               </div>
-            </a>
+            </li>
           </li>
           <li>
             <div>
@@ -167,16 +167,16 @@ export const Sidebar = () => {
       <div className='mt-32'>
         <ul>
           <li className="mb-2">
-            <a  className="block py-2 px-6 text-sm font-[300]"><FontAwesomeIcon icon={faUserPlus} className='mr-2' /> Add People</a>
+            <li  className="block py-2 px-6 text-sm font-[300]"><FontAwesomeIcon icon={faUserPlus} className='mr-2' /> Add People</li>
           </li>
           <li className="mb-2">
-            <a  className="block py-2 px-6 text-sm font-[300]"><FontAwesomeIcon icon={faCircleHalfStroke} rotation={-50} className='mr-2' /> Templates</a>
+            <li  className="block py-2 px-6 text-sm font-[300]"><FontAwesomeIcon icon={faCircleHalfStroke} rotation={-50} className='mr-2' /> Templates</li>
           </li>
           <li className="mb-2">
-            <a  className="block py-2 px-6 text-sm font-[300]"><FontAwesomeIcon icon={faDownload} className='mr-2' /> Shared with me</a>
+            <li  className="block py-2 px-6 text-sm font-[300]"><FontAwesomeIcon icon={faDownload} className='mr-2' /> Shared with me</li>
           </li>
           <li className="mb-2">
-            <a  className="block py-2 px-6 text-sm font-[300]"><FontAwesomeIcon icon={faBoxArchive} className='mr-2' /> Archive</a>
+            <li  className="block py-2 px-6 text-sm font-[300]"><FontAwesomeIcon icon={faBoxArchive} className='mr-2' /> Archive</li>
           </li>
         </ul>
       </div>
